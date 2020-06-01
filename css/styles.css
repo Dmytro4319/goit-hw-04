@@ -10,7 +10,14 @@ li {
   list-style: none;
   text-decoration: none;
 }
-
+/* ul{
+  margin: 0;
+  padding: 0;
+} */
+section{
+  margin: 0;
+  padding: 0;
+}
 p {
   margin: 0;
   padding: 0;
@@ -75,9 +82,17 @@ letter-spacing: 0.03em;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--color_black);
-
-  margin-right: 30px;
+  /* margin: 0;
+  margin-right: 30px; */
 }
+.nav-links .item:not(:last-child) {
+  margin: 0;
+  padding: 0;
+  margin-right: 50px;
+}
+/* .item:last-child{
+  margin-right: 0; */
+/* } */
 .nav-links .emeil {
   color: var(--color_text);
 }
@@ -106,8 +121,12 @@ letter-spacing: 0.03em;
   color: var(--color_blu);}
 .item {
   text-decoration: none;
+  
 }
-
+.itema{
+ 
+  margin-right: 30px;
+}
 .links:hover,
 .links:focus {
   color: var(--color_blu);
@@ -142,8 +161,9 @@ letter-spacing: 0.03em;
   flex: end;
   margin-left: auto;
 }
-.nav-links .item:not(:last-child) {
-  margin-right: 50px;
+.mar{
+  margin: 0;
+  margin-left: 30px;
 }
 
 /* 1600 */
@@ -177,6 +197,7 @@ letter-spacing: 0.03em;
   background: #f5f4fa;
 }
 .gero{
+  position: relative;
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
@@ -187,11 +208,14 @@ letter-spacing: 0.03em;
   background-repeat: no-repeat;
 }
 .abo {
- height: 600px;
+ 
  position: absolute;
-  top: 80px;
+ height: 100%;
+  top: 0;
   right: 0;
-  left: 0;
+  left:0;
+  bottom:0;
+  
 
   /* background-color: rgba(47, 48, 58, 0.8); */
   margin-top: 0;
@@ -205,14 +229,15 @@ letter-spacing: 0.03em;
 
   color: var(--color_white);
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+font-size: 44px;
+line-height: 60px;
   letter-spacing: 0.06em;
   text-align: center;
   padding-top: 200px;
   margin-top: 0;
   margin-bottom: 0;
   margin-bottom: 46px;
+  text-transform: uppercase;
 }
 .txt {
   font-size: 14px;
@@ -293,6 +318,11 @@ letter-spacing: 0.03em;
   color: var(--color_black);
   margin-top: 30px;
   margin-bottom: 10px;
+  
+}
+.line-blok .doit .title:not(:last-child){
+  margin-right: 30px;
+  
 }
 .vel{
   text-transform: uppercase;
@@ -409,6 +439,7 @@ background-image: url('../img/Vector.svg');
   margin-top: 10px;
   margin-bottom: 10px;
   color: var(--color_text);
+  
 }
 
 
@@ -582,7 +613,7 @@ letter-spacing: 0.03em;
   color: var(--color_black);
   font-weight: 700;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 36px;
   letter-spacing: 0.06em;
   color: #212121;
   margin-top: 20px;
