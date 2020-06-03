@@ -47,8 +47,8 @@ body {
   margin: 0;
   padding: 0;
   letter-spacing: 0.03em;
-  padding-left: 4px;
-  padding-right: 4px;
+  /* padding-left: 4px;
+  padding-right: 4px; */
 }
 /* шапка */
 .logo-link {
@@ -126,6 +126,9 @@ letter-spacing: 0.03em;
 .item {
   text-decoration: none;
   
+}
+.line::after{
+ 
 }
 .itema{
  
@@ -307,7 +310,7 @@ line-height: 60px;
 .title {
   
   /* display: flex; */
- 
+  
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
