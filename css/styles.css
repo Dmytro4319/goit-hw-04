@@ -98,9 +98,7 @@ letter-spacing: 0.03em;
   padding: 0;
   margin-right: 50px;
 }
-/* .item:last-child{
-  margin-right: 0; */
-/* } */
+
 .nav-links .emeil {
   color: var(--color_text);
 }
@@ -129,10 +127,22 @@ letter-spacing: 0.03em;
   color: var(--color_blu);}
 .item {
   text-decoration: none;
+  position: relative;
   
 }
-.line::after{
- 
+.hey{
+  height: 100%;
+}
+.polosa::after{
+  display: block;
+  content: '';
+  width: 100%;
+  background: #2196F3;
+border-radius: 2px;
+  height: 5px;
+  position: absolute;
+  bottom: 0px;
+  left:0;
 }
 .itema{
  
