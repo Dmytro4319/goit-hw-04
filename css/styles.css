@@ -276,19 +276,27 @@ line-height: 60px;
 }
 /* Мы гарантируем */
 
-  .fly{ 
+  .ryad{
+    display: inline-block
     display: inline-flex;
-    align-items: center;
+    flex-direction: wrap;
+  }
+  .fly{ 
+    
+    display: inline-flex;
+    justify-content: flex-start;
     text-align: center;
     font-weight: 900;
     font-size: 16px;
     line-height: 30px;
+    width: 200px;
+    height: 50px;
    
     letter-spacing: 0.06em;
   color: var(--color_white);
   background: #2196f3;
   padding-left: 29px;
-  /* padding-right: 64px; */
+
   margin-bottom: 0;
   margin-top: 0;
   
@@ -296,20 +304,29 @@ line-height: 60px;
   padding-bottom: 10px;}
   
   .fly::after{
-  content: 'qw';
-  font-size: 24px;
-  line-height: 24px;
-
-  /* width:30; 
-  height: 30; */
-  color: transparent;
-  /* margin-left: 10px; */
+    display: block;
+  content: '';
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
   background-repeat: no-repeat;
   background-image: url(../img/fly.svg);
   background-size: contain;
   background-position: center;
-  padding-right:  28px;  
+  
 
+}
+.enter{
+ 
+  display: inline-flex;
+  width: 358px;
+height: 50px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+align-items: center;
+text-align: center;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+margin-right: 12px;
 }
 .title {
   
@@ -328,6 +345,7 @@ line-height: 60px;
   padding-bottom: 10px;
   margin-right: 30px;
 }
+
 .no{
   margin-right: 0px;
   
@@ -547,6 +565,7 @@ background-image: url('../img/Vector.svg');
   cursor: pointer;
   border: 1px solid #2196F3;
 }
+/* futer */
 footer {
   background-color: var(--color_black);
 }
@@ -567,12 +586,25 @@ footer {
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
-  padding-left: 40px;
+margin: 0;
+padding-bottom: 21px;padding-top: 10px;
+
 }
+
+
 .one {
-  margin-right: 46px;
+  margin-right: 69px;
   justify-content: start;
 }
+.onece{
+  margin-right: 94px;
+  padding: 0;
+  
+}
+.marg{
+  margin-left: 0;
+margin-top: 0;
+margin-bottom: 0;}
 .left{
   text-align: left;
   text-transform: uppercase;
