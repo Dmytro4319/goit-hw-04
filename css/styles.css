@@ -293,7 +293,7 @@ line-height: 60px;
 /* Мы гарантируем */
 
   .ryad{
-    display: inline-block
+    display: inline-block;
     display: inline-flex;
     flex-direction: wrap;
   }
@@ -367,7 +367,7 @@ margin-right: 12px;
   
 }
 .lhm{
-  margin 0;
+  margin: 0;
   margin-right: 0;
   font-size: 16px;
 line-height: 19px;
@@ -596,7 +596,7 @@ footer {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-
+  align-items: baseline;
   color: var(--color_white);
 }
 .down {
