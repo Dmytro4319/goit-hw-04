@@ -126,6 +126,7 @@ letter-spacing: 0.03em;
 .how:hover, .how:focus{
   --color5:#2196F3;
   cursor: pointer;
+  transition-duration:250ms;
 }
 .nav-links .phon {
   color: var(--color_text);
@@ -160,6 +161,7 @@ border-radius: 2px;
 .links:hover,
 .links:focus {
   color: var(--color_blu);
+  transition-duration:250ms;
 }
 
 .head {
@@ -582,6 +584,7 @@ background-image: url('../img/Vector.svg');
   height: 44px;
   border-radius: 50%;
   background-color: #2196F3;
+  transition-duration:250ms;
 }
 .socia:hover, .socia:focus{
  
@@ -590,6 +593,7 @@ background-image: url('../img/Vector.svg');
   height: 44px;
   border-radius: 50%;
   background-color: #2196F3;
+  transition-duration:250ms;
 }
 .cent {
  
@@ -619,6 +623,7 @@ background-image: url('../img/Vector.svg');
   --color3:#2196F3;
   cursor: pointer;
   border: 1px solid #2196F3;
+  transition-duration:250ms;
 }
 /* futer */
 footer {
@@ -776,6 +781,7 @@ line-height: 26px; */
   color: var(--color_white);
   background-color: var(--color_blu);
   cursor: pointer;
+  transition-duration:250ms;
 }
 .psp{
   padding-top: 94px;
