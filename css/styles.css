@@ -388,9 +388,9 @@ text-align: center;
   margin-right: 164px;
 }
 .podpis{
-  /* position: absolute; */
-  position: relative;
-  opacity: 1;
+  position: absolute;
+  /* position: relative; */
+  opacity: 0;
   width: 528px;
   height: 581px;
   background: #FFFFFF;
